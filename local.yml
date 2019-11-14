@@ -2,8 +2,8 @@
   become: true
   tasks:
   - name: Install packages
-    apt: name={{item}}
-    with_items:
+    apt:
+      pkg:
       - htop
       - screen
       - tmux
