@@ -1,11 +1,9 @@
 - hosts: localhost
   become: true
   tasks:
-  - name: Install htop
-    apt: name=htop
-    
-  - name: Install tmux
-    apt: name=tmux
-
-  - name: Install screen
-    apt: name=screen
+  - name: Install packages
+    apt: name={{item}}
+    with_items:
+      - htop
+      - screen
+      - tmux
