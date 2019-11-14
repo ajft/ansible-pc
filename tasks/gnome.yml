@@ -1,0 +1,9 @@
+- name: Install python-psutil package
+  apt: name=python-psutil
+
+- name: Copy wallpaper file
+  copy: src=files/wallpaper.jpg dest=/home/ajft/.wallpaper.jpg owner=ajft group=ajft mode=600
+
+- name: Set GNOME Wallpaper
+  become_user: ajft
+  dconf: key="/org/gnome/desktop/background/picture-uri" value="'file:///home/ajft/.wallpaper.jpg'"
