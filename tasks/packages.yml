@@ -2,6 +2,9 @@
   apt:
     pkg:
     - fonts-powerline
+    - git
+    - svn
+    - mercurial
     - htop
     - screen
     - tmux
