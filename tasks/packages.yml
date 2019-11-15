@@ -1,6 +1,7 @@
 - name: Install deb packages
   apt:
     pkg:
+    - fonts-powerline
     - htop
     - screen
     - tmux
