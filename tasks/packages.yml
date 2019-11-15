@@ -10,7 +10,7 @@
     - ledger
     - mercurial
     - screen
-    - svn
+    - subversion
     - tmux
     - uptimed
 
