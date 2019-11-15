@@ -4,13 +4,15 @@
     - fonts-firacode
     - fonts-powerline
     - git
-    - svn
-    - mercurial
+    - gkrellm
+    - gnuplot
     - htop
+    - ledger
+    - mercurial
     - screen
+    - svn
     - tmux
     - uptimed
-    - gkrellm
 
 - name: Install snap packages
   snap:
