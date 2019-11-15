@@ -15,3 +15,6 @@
     - include: tasks/brave-browser.yml
     - include: tasks/keybase.yml
     - include: tasks/plexserver.yml
+
+  roles:
+    - role: charliemaiors.rclone_ansible

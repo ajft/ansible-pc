@@ -1,0 +1,3 @@
+# requirements.yml
+- src: charliemaiors.rclone_ansible
+
