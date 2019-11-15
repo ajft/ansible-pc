@@ -14,3 +14,4 @@
     - include: tasks/syncthing.yml
     - include: tasks/brave-browser.yml
     - include: tasks/keybase.yml
+    - include: tasks/plexserver.yml

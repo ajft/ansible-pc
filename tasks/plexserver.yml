@@ -1,0 +1,13 @@
+- name: Add the Plex PGP key
+  apt_key:
+    url: https://downloads.plex.tv/plex-keys/PlexSign.key
+    state: present
+
+- name: Install apt repositories
+  apt_repository:
+    repo: deb https://downloads.plex.tv/repo/deb public main
+    state: present
+    filename: plexmediaserver
+
+- name: Install Plex server
+  apt: name=plexmediaserver
