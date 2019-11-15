@@ -7,3 +7,17 @@
 - name: Set GNOME Wallpaper
   become_user: ajft
   dconf: key="/org/gnome/desktop/background/picture-uri" value="'file:///home/ajft/.wallpaper.jpg'"
+
+# - name: Copy lockscreenfile
+#  copy: src=files/lockscreen.jpg dest=/home/ajft/.lockscreen.jpg owner=ajft group=ajft mode=600
+
+# - name: Set lock screen background
+#  become_user: ajft
+#  dconf: key="/org/gnome/desktop/screensaver/picture-uri" value="'file:///home/ajft/.lockscreen.jpg'"
+
+# - name: Install arc theme
+#   apt: name=arc-theme
+
+# - name: Set GTK theme
+#   become_user: ajft
+#   dconf: key="/org/gnome/desktop/interface/gtk-theme" value="'Arc'"
