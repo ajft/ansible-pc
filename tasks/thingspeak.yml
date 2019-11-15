@@ -1,0 +1,5 @@
+- name: Install bc prerequisite
+  apt: name=bc
+
+- name: install cron job (ajft-thingspeak)
+  cron: user="ajft" name="linux stats to thingspeak.com"  job="$HOME/bin/server_stats.sh > /dev/null"
