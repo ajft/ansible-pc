@@ -10,6 +10,12 @@
 - name: install cron job (ajft-monthly)
   cron: user="ajft" name="ajft monthly" special_time="monthly" job="$HOME/bin/cron.monthly"
 
+- name: install cron job (root-hourly)
+  cron: user="root" name="root hourly" special_time="hourly" job="$HOME/bin/cron.hourly"
+
+- name: install cron job (root-daily)
+  cron: user="root" name="root daily" special_time="daily" job="$HOME/bin/cron.daily"
+
 # linux counter project EOL https://en.wikipedia.org/wiki/Linux_Counter
 # - name: install cron job (ajft-linuxcounter)
 #  cron:
