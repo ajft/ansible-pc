@@ -18,3 +18,9 @@
 
   roles:
     - role: charliemaiors.rclone_ansible
+    - role: nbigot.ansible-fail2ban
+
+  vars:
+    fail2ban_services:
+      - name: ssh
+        port: 22

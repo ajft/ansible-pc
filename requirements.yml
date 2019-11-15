@@ -1,3 +1,4 @@
 # requirements.yml
 - src: charliemaiors.rclone_ansible
+- src: nbigot.ansible-fail2ban
 
