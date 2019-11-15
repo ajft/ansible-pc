@@ -1,5 +1,9 @@
 - name: install cron job (ansible-pull)
-  cron: user="ansible" name="ansible provision" minute="*/15" job="/usr/bin/ansible-pull -o -U https://github.com/ajft/ansible-pc.git > /dev/null"
+  cron:
+    user="ansible"
+    name="ansible provision"
+    minute="*/15"
+    job="/usr/bin/ansible-pull -o -U https://github.com/ajft/ansible-pc.git > $HOME/ansible.log 2>&1"
 
 - name: install cron job (ajft-reboot)
   cron: user="ajft" name="ajft reboot" special_time="reboot" job="$HOME/bin/cron.reboot"
