@@ -1,5 +1,5 @@
 - name: Install python-psutil package
-  apt: name=python-psutil
+  apt: name=python3-psutil
 
 - name: Copy wallpaper file
   copy: src=files/wallpaper.jpg dest=/home/ajft/.wallpaper.jpg owner=ajft group=ajft mode=600
