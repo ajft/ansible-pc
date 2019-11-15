@@ -13,3 +13,4 @@
     - include: tasks/thingspeak.yml
     - include: tasks/syncthing.yml
     - include: tasks/brave-browser.yml
+    - include: tasks/keybase.yml
