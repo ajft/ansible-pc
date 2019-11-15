@@ -10,6 +10,7 @@
     - gnuplot
     - htop
     - ledger
+    - mailutils
     - mercurial
     - screen
     - subversion
