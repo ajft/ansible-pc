@@ -1,6 +1,7 @@
 - name: Install deb packages
   apt:
     pkg:
+    - fonts-firacode
     - fonts-powerline
     - git
     - svn
@@ -8,6 +9,7 @@
     - htop
     - screen
     - tmux
+    - uptimed
 
 - name: Install snap packages
   snap:
