@@ -1,6 +1,12 @@
-- name: Install packages
+- name: Install deb packages
   apt:
     pkg:
     - htop
     - screen
     - tmux
+
+- name: Install snap packages
+  snap:
+    name:
+      - gnome-system-monitor
+      - signal-desktop
