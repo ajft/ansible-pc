@@ -20,4 +20,6 @@
   snap:
     name:
       - gnome-system-monitor
+      - mutt
       - signal-desktop
+
