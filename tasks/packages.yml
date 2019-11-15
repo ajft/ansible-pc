@@ -1,6 +1,7 @@
 - name: Install deb packages
   apt:
     pkg:
+    - borgbackup
     - fonts-firacode
     - fonts-powerline
     - git
