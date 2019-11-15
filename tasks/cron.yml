@@ -9,3 +9,13 @@
 
 - name: install cron job (ajft-monthly)
   cron: user="ajft" name="ajft monthly" special_time="monthly" job="$HOME/bin/cron.monthly"
+
+# linux counter project EOL https://en.wikipedia.org/wiki/Linux_Counter
+# - name: install cron job (ajft-linuxcounter)
+#  cron:
+#    user="ajft"
+#    name="linux counter project"
+#    job="$HOME/bin/lico-update.sh -m > /dev/null 2>&1"
+#    minute: "1"
+#    hour: "21"
+#    weekday: "4"
