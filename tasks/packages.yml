@@ -10,6 +10,7 @@
     - gnuplot
     - htop
     - ledger
+    - libdatetime-format-strptime-perl
     - libimage-exiftool-perl
     - libpango1.0-0 # required by dropbox
     - mailutils
