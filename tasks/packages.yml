@@ -23,6 +23,11 @@
     name:
       - gnome-system-monitor
       - mutt
-      - ruby
       - signal-desktop
+
+- name: Snaps that need classic confinement
+  snap:
+    name:
+      - ruby
+    confinement: yes
 
