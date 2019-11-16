@@ -29,5 +29,4 @@
   snap:
     name:
       - ruby
-    confinement: yes
-
+    classic: yes
