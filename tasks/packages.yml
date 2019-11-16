@@ -13,6 +13,7 @@
     - libdatetime-format-strptime-perl
     - libimage-exiftool-perl
     - libpango1.0-0 # required by dropbox
+    - libqt5sql5 # required by rescuetime
     - mailutils
     - mercurial
     - python3-pip
@@ -27,6 +28,7 @@
       - gnome-system-monitor
       - mutt
       - signal-desktop
+      - spotify
 
 - name: Snaps that need classic confinement
   snap:
