@@ -17,6 +17,7 @@
     - libqt5sql5 # required by rescuetime
     - mailutils
     - mercurial
+    - mosquitto
     - net-tools
     - netcat
     - python3-pip
