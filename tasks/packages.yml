@@ -18,6 +18,7 @@
     - mailutils
     - mercurial
     - mosquitto
+    - mosquitto-clients
     - net-tools
     - netcat
     - python3-pip
