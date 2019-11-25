@@ -3,6 +3,7 @@
     pkg:
     - aptitude
     - borgbackup
+    - ddclient
     - fonts-firacode
     - fonts-powerline
     - git
