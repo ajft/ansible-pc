@@ -16,10 +16,14 @@
     - libqt5sql5 # required by rescuetime
     - mailutils
     - mercurial
+    - net-tools
+    - netcat
     - python3-pip
     - screen
+    - sqlite
     - subversion
     - tmux
+    - tor
     - uptimed
 
 - name: Install snap packages
