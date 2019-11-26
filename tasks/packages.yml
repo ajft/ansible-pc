@@ -28,6 +28,7 @@
     - tmux
     - tor
     - uptimed
+    - vlc
 
 - name: Install snap packages
   snap:
