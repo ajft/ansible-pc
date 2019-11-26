@@ -11,6 +11,12 @@
 - name: install cron job (ajft-hourly)
   cron: user="ajft" name="ajft hourly" special_time="hourly" job="$HOME/bin/cron.hourly"
 
+- name: install cron job (ajft-daily)
+  cron: user="ajft" name="ajft daily" special_time="daily" job="$HOME/bin/cron.daily"
+
+- name: install cron job (ajft-weekly)
+  cron: user="ajft" name="ajft weekly" special_time="weekly" job="$HOME/bin/cron.weekly"
+
 - name: install cron job (ajft-monthly)
   cron: user="ajft" name="ajft monthly" special_time="monthly" job="$HOME/bin/cron.monthly"
 
