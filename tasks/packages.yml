@@ -29,6 +29,7 @@
     - tor
     - uptimed
     - vlc
+    - xplanet
 
 - name: Install snap packages
   snap:
