@@ -5,6 +5,13 @@
     minute="*/15"
     job="/usr/bin/ansible-pull -o -U https://github.com/ajft/ansible-pc.git > $HOME/ansible.log 2>&1"
 
+- name: Creates my custom path, default /usr/bin:/bin is insufficient
+  cron:
+    user="ajft"
+    name="PATH"
+    env="yes"
+    job="/snap/bin:/home/ajft/bin:/home/arch/Linux-x86_64/bin:/usr/bin:/bin"
+
 - name: install cron job (ajft-reboot)
   cron: user="ajft" name="ajft reboot" special_time="reboot" job="$HOME/bin/cron.reboot"
 
