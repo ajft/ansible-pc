@@ -10,7 +10,7 @@
     user="ajft"
     name="PATH"
     env="yes"
-    job="/snap/bin:$HOME/bin:$HOME/arch/Linux-x86_64/bin:$PATH"
+    job="/snap/bin:/home/ajft/bin:/home/arch/Linux-x86_64/bin:/usr/bin:/bin"
 
 - name: install cron job (ajft-reboot)
   cron: user="ajft" name="ajft reboot" special_time="reboot" job="$HOME/bin/cron.reboot"
