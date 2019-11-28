@@ -7,10 +7,11 @@
 
 - name: Creates my custom path, default /usr/bin:/bin is insufficient
   cron:
-    name: PATH
-    env: yes
-    job: /snap/bin:$HOME/bin:/home/ajft/arch/Linux-x86_64/bin:$PATH
-    
+    user="ajft"
+    name="PATH"
+    env="yes"
+    job="/snap/bin:$HOME/bin:$HOME/arch/Linux-x86_64/bin:$PATH"
+
 - name: install cron job (ajft-reboot)
   cron: user="ajft" name="ajft reboot" special_time="reboot" job="$HOME/bin/cron.reboot"
 
