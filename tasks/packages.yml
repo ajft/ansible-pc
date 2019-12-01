@@ -15,6 +15,7 @@
     - libimage-exiftool-perl
     - libpango1.0-0 # required by dropbox
     - libqt5sql5 # required by rescuetime
+    - libsqlite3-dev # required by camlistore
     - mailutils
     - mercurial
     - mosquitto
