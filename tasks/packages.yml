@@ -10,6 +10,7 @@
     - gkrellm
     - gnuplot
     - htop
+    - imagemagick
     - ledger
     - libdatetime-format-strptime-perl
     - libimage-exiftool-perl
