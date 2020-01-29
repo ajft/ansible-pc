@@ -3,6 +3,7 @@
     pkg:
     - aptitude
     - borgbackup
+    - cpanminus
     - ddclient
     - fonts-firacode
     - fonts-powerline
@@ -11,8 +12,10 @@
     - gnuplot
     - htop
     - imagemagick
+    - ispell
     - ledger
     - libdatetime-format-strptime-perl
+    - libgd-perl
     - libimage-exiftool-perl
     - libpango1.0-0 # required by dropbox
     - libqt5sql5 # required by rescuetime
