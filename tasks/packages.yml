@@ -3,6 +3,7 @@
     pkg:
     - aptitude
     - borgbackup
+    - calibre
     - cpanminus
     - ddclient
     - fonts-firacode
