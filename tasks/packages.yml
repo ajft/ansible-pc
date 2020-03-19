@@ -15,6 +15,7 @@
     - imagemagick
     - ibritish-large
     - ispell
+    - ldap-utils
     - ledger
     - libdatetime-format-strptime-perl
     - libgd-perl
