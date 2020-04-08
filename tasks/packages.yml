@@ -47,6 +47,7 @@
       - mutt
       - signal-desktop
       - spotify
+      - zoom-client
 
 - name: Snaps that need classic confinement
   snap:
