@@ -11,6 +11,7 @@
     - git
     - gkrellm
     - gnuplot
+    - guvcview
     - htop
     - imagemagick
     - ibritish-large
@@ -44,6 +45,7 @@
   snap:
     name:
       - gnome-system-monitor
+      - guvcview
       - mutt
       - signal-desktop
       - spotify
