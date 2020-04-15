@@ -33,6 +33,7 @@
     - net-tools
     - netcat
     - python3-pip
+    - rrdtool
     - screen
     - sqlite
     - subversion
