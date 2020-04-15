@@ -29,6 +29,7 @@
     - mono-runtime
     - mosquitto
     - mosquitto-clients
+    - mrtg
     - net-tools
     - netcat
     - python3-pip
