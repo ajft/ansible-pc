@@ -31,6 +31,8 @@
     - mosquitto
     - mosquitto-clients
     - mrtg
+    - mrtgutils
+    - mrtgutils-sensors
     - net-tools
     - netcat
     - python3-pip
