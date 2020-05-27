@@ -6,6 +6,7 @@
     - calibre
     - cpanminus
     - ddclient
+    - etckeeper
     - fonts-firacode
     - fonts-powerline
     - git
