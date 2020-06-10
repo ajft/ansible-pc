@@ -6,6 +6,7 @@
     - calibre
     - cpanminus
     - ddclient
+    - docker.io
     - etckeeper
     - fonts-firacode
     - fonts-powerline
@@ -36,6 +37,7 @@
     - net-tools
     - netcat
     - python3-pip
+    - python3-tk
     - rrdtool
     - screen
     - sqlite
