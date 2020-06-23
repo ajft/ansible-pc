@@ -6,7 +6,6 @@
     - calibre
     - cpanminus
     - ddclient
-    - docker.io
     - etckeeper
     - fonts-firacode
     - fonts-powerline
