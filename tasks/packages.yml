@@ -42,6 +42,7 @@
     - sqlite
     - subversion
     - tmux
+    - tmuxinator
     - tor
     - uptimed
     - vlc
