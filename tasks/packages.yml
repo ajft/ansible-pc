@@ -4,6 +4,7 @@
     - aptitude
     - borgbackup
     - calibre
+    - conky-all
     - cpanminus
     - ddclient
     - etckeeper
@@ -35,6 +36,7 @@
     - mrtgutils-sensors
     - net-tools
     - netcat
+    - openconnect
     - python3-pip
     - python3-tk
     - rrdtool
