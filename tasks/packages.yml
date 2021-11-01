@@ -26,6 +26,7 @@
     - libpango1.0-0 # required by dropbox
     - libqt5sql5 # required by rescuetime
     - libsqlite3-dev # required by camlistore
+    - locate
     - mailutils
     - mercurial
     - mono-runtime
@@ -34,10 +35,12 @@
     - mrtg
     - mrtgutils
     - mrtgutils-sensors
+    - ncal
     - net-tools
     - netcat
     - network-manager-openconnect-gnome
     - openconnect
+    - pv
     - python3-pip
     - python3-tk
     - rrdtool
