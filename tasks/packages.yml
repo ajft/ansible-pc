@@ -54,6 +54,7 @@
     - uptimed
     - vlc
     - xplanet
+    - xsltproc
     - zfsnap
 
 - name: Install snap packages
