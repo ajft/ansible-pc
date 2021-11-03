@@ -45,7 +45,9 @@
     - python3-tk
     - rrdtool
     - ruby-dev
+    - samba
     - screen
+    - smbclient
     - sqlite
     - subversion
     - tmux
