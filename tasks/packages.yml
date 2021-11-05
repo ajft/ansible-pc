@@ -40,6 +40,7 @@
     - netcat
     - network-manager-openconnect-gnome
     - openconnect
+    - pass
     - pv
     - python
     - python3-pip
