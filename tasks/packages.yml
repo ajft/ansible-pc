@@ -37,6 +37,7 @@
     - mrtg
     - mrtgutils
     - mrtgutils-sensors
+    - mu4e
     - ncal
     - net-tools
     - netcat
