@@ -28,6 +28,7 @@
     - libsqlite3-dev # required by camlistore
     - locate
     - mailutils
+    - maildir-utils
     - mercurial
     - mono-runtime
     - mosquitto
