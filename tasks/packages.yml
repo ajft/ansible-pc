@@ -60,6 +60,7 @@
     - tor
     - uptimed
     - vlc
+    - xorg-dev
     - xplanet
     - xsltproc
     - zfsnap
