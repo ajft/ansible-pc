@@ -55,6 +55,10 @@
     - smbclient
     - sqlite
     - subversion
+    - texlive-fonts-extra
+    - texlive-fonts-recommended
+    - texlive-latex-base
+    - texlive-latex-extra
     - tmux
     - tmuxinator
     - tor
