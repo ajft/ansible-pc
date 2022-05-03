@@ -21,10 +21,13 @@
     - ldap-utils
     - ledger
     - libdatetime-format-strptime-perl
+    - libedit-dev # required by gems
+    - libffi-dev # required by gems
     - libgd-perl
     - libimage-exiftool-perl
     - libpango1.0-0 # required by dropbox
     - libqt5sql5 # required by rescuetime
+    - libreadline-dev #required by gems
     - libsqlite3-dev # required by camlistore
     - locate
     - mailutils
