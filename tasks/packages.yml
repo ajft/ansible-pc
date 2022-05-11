@@ -4,6 +4,7 @@
     - aptitude
     - borgbackup
     - calibre
+    - cifs-utils
     - conky-all
     - cpanminus
     - ddclient
