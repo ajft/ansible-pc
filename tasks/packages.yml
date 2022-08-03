@@ -2,6 +2,7 @@
   apt:
     pkg:
     - aptitude
+    - bonnie++
     - borgbackup
     - calibre
     - cifs-utils
