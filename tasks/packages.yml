@@ -10,6 +10,7 @@
     - cpanminus
     - ddclient
     - etckeeper
+    - flent
     - fonts-firacode
     - fonts-powerline
     - git
