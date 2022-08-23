@@ -48,6 +48,7 @@
     - net-tools
     - netcat
     - network-manager-openconnect-gnome
+    - npm
     - openconnect
     - pass
     - pv
