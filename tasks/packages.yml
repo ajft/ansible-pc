@@ -46,6 +46,7 @@
     - mrtgutils-sensors
     - mu4e
     - ncal
+    - nofetch
     - net-tools
     - netcat
     - network-manager-openconnect-gnome
