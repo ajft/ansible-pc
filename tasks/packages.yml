@@ -9,6 +9,7 @@
     - conky-all
     - cpanminus
     - ddclient
+    - docker-compose
     - etckeeper
     - flent
     - fonts-firacode
