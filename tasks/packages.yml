@@ -2,12 +2,17 @@
   apt:
     pkg:
     - aptitude
+    - bonnie++
     - borgbackup
     - calibre
+    - cifs-utils
+    - conky-all
     - cpanminus
     - ddclient
     - du-dust
+    - docker-compose
     - etckeeper
+    - flent
     - fonts-firacode
     - fonts-powerline
     - git
@@ -17,37 +22,63 @@
     - htop
     - imagemagick
     - ibritish-large
+    - iperf3
     - ispell
     - ldap-utils
     - ledger
     - libdatetime-format-strptime-perl
+    - libedit-dev # required by gems
+    - libffi-dev # required by gems
     - libgd-perl
     - libimage-exiftool-perl
     - libpango1.0-0 # required by dropbox
     - libqt5sql5 # required by rescuetime
+    - libreadline-dev #required by gems
     - libsqlite3-dev # required by camlistore
+    - locate
     - mailutils
+    - maildir-utils
     - mercurial
     - mono-runtime
     - mosquitto
     - mosquitto-clients
+    - mpack
     - mrtg
     - mrtgutils
     - mrtgutils-sensors
+    - mu4e
+    - ncal
+    - neofetch
     - net-tools
     - netcat
+    - network-manager-openconnect-gnome
+    - npm
+    - openconnect
+    - pass
+    - pv
+    - python
     - python3-pip
     - python3-tk
     - rrdtool
+    - ruby-dev
+    - samba
     - screen
+    - smbclient
     - sqlite
     - subversion
+    - texlive-fonts-extra
+    - texlive-fonts-recommended
+    - texlive-latex-base
+    - texlive-latex-extra
     - tmux
     - tmuxinator
     - tor
     - uptimed
     - vlc
+    - xorg-dev
     - xplanet
+    - xsltproc
+    - xxhash
     - zfsnap
 
 - name: Install snap packages
