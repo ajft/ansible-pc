@@ -1,16 +1,16 @@
 - name: Add the Brave PGP key
   apt_key:
     url: https://brave-browser-apt-release.s3.brave.com/brave-core.asc
-    state: present
+    state: absent
 
 - name: Install apt repositories
   apt_repository:
     repo: deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com eoan main
-    state: present
+    state: absent
     filename: brave-browser
 
-- name: Install Brave browser
-  apt:
-    pkg:
-      - brave-browser
-      - brave-keyring
+#- name: Install Brave browser
+#  apt:
+#    pkg:
+#      - brave-browser
+#      - brave-keyring
