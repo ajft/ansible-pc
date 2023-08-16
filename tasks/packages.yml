@@ -9,6 +9,7 @@
     - conky-all
     - cpanminus
     - ddclient
+    - du-dust
     - docker-compose
     - etckeeper
     - flent
