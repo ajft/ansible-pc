@@ -6,15 +6,15 @@
       changed_when: False
 
   tasks:
-    - include: tasks/packages.yml
-    - include: tasks/users.yml
-    - include: tasks/cron.yml
-    - include: tasks/gnome.yml
-    - include: tasks/thingspeak.yml
-    - include: tasks/syncthing.yml
-    - include: tasks/brave-browser.yml
-    - include: tasks/keybase.yml
-    - include: tasks/plexserver.yml
+    - include_tasks: tasks/packages.yml
+    - include_tasks: tasks/users.yml
+    - include_tasks: tasks/cron.yml
+    - include_tasks: tasks/gnome.yml
+    - include_tasks: tasks/thingspeak.yml
+    - include_tasks: tasks/syncthing.yml
+    - include_tasks: tasks/brave-browser.yml
+    - include_tasks: tasks/keybase.yml
+    - include_tasks: tasks/plexserver.yml
 
   roles:
     - role: charliemaiors.rclone_ansible
