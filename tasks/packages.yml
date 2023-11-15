@@ -59,6 +59,7 @@
     - python
     - python3-full
     - python3-pip
+    - python3-sphinx
     - python3-tk
     - rrdtool
     - ruby-dev
