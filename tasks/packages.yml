@@ -12,11 +12,13 @@
     - du-dust
     - docker-compose
     - etckeeper
+    - flatpak
     - flent
     - fonts-firacode
     - fonts-powerline
     - git
     - gkrellm
+    - gnome-software-plugin-flatpak
     - gnuplot
     - guvcview
     - htop
